@@ -1,0 +1,255 @@
+body {
+    font-size: 13.93px;
+    font-family: QuattrocentoSans, sans-serif;
+}
+
+.wrapper {
+    max-width: 1920px;
+    min-width: 1280px;
+    margin: auto;
+}
+
+header .logo {
+    height: 138px;
+    box-shadow: 0px 4px 15px -10px #595959;
+}
+
+header img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 69px;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.inner-header {
+    height: 80px;
+}
+
+.inner-header .social {
+    float: left;
+    width: 25%;
+}
+
+.inner-header nav {
+    float: left;
+    text-transform: uppercase
+}
+
+.inner-header .search {
+    float: right;
+    width: 25%;
+}
+
+.inner-header .social li {
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    margin-top: 18px;
+    width: 19px;
+    height: 15px;
+    background-image: url(img/sprite.png);
+    vertical-align: top;
+    margin-left: 14px;
+}
+
+.inner-header .social {
+    font-size: 14px;
+}
+
+.inner-header .social li {
+    font-size: 0px;
+    width: 19px;
+    height: 15px;
+    background-image: url(img/sprite.png);
+    vertical-align: top;
+    margin-left: 4px;
+    position: relative
+}
+
+.inner-header .social a {
+    font-size: 10px;
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    color: transparent;
+}
+
+.inner-header .social li:first-child {
+    background-position: 1px 1px;
+    margin-left: 14.4%;
+}
+
+.inner-header .social li:nth-child(2) {
+    background-position: -25px 0px;
+    height: 17px;
+}
+
+.inner-header .social li:nth-child(3) {
+    background-position: -50px 1px;
+}
+
+.inner-header .social li:nth-child(4) {
+    background-position: -80px 1px;
+    height: 18px;
+}
+
+.inner-header nav {
+    width: 50%;
+    text-align: center;
+}
+
+.inner-header nav li:not(:first-child) {
+    margin-left: 30px;
+}
+
+.inner-header nav li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+
+ul {
+    padding: 0;
+}
+
+form {
+    position: relative;
+}
+
+.search input {
+    border: none;
+    margin-top: 30px;
+    float: right;
+    border-right: 1px solid black;
+    margin-right: 21.6%;
+    position: relative;
+    outline: none;
+}
+
+.search input::after {
+    position: absolute;
+    content: "";
+    width: 15px;
+    height: 16px;
+    background-image: url(img/sprite.png);
+}
+
+button {
+    position: absolute;
+    top: 30px;
+    right: 15.6%;
+    width: 18px;
+    height: 18px;
+    border: none;
+    background-color: transparent;
+    background-image: url(img/sprite.png);
+    background-position: -99px;
+    cursor: pointer;
+    outline: none
+}
+
+.intro img {
+    width: 100%;
+}
+
+.intro {
+    position: relative
+}
+
+.intro a {
+    display: block;
+    padding: 8px 12px;
+    position: absolute;
+    top: 462px;
+    left: 50%;
+    margin-left: -39px;
+    color: #ffffff;
+    background-color: #ff0000;
+    text-transform: uppercase
+}
+
+.content {
+    width: 66.1%;
+    min-width: 1270px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.left-column {
+    float: left;
+    width: 400px;
+}
+
+.central-column {
+    float: left;
+    width: 400px;
+    margin-left: 30px;
+}
+
+.right-column {
+    float: right;
+    width: 320px;
+}
+
+span.theme {
+    display: block;
+    color: #898989;
+    font-size: 12.02px;
+    width: 60px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+     font-family: "QuattrocentoSans", sans-serif;
+    font-style: italic;
+    border-bottom: 2px solid #aeaeae;
+    line-height: 21px;
+    margin-top: 25px;
+}
+
+h2 {
+    font-family: "QuattrocentoSans", serif;
+    text-align: center;
+    font-size: 24.06px;
+    font-weight: 700;
+    line-height: 35.081px;
+}
+
+p {
+    text-align: center;
+    line-height: 25.986px;
+    color: #898989;
+    font-size: 13.99px;
+    font-family: QuattrocentoSans, sans-serif
+}
+
+span.date {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span.month {
+    color: #101010;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+span.year {
+    color: #898989;
+    font-size: 13px;
+    line-height: 48px
+}
