@@ -204,6 +204,10 @@ button {
     width: 320px;
 }
 
+.item-content {
+    margin-top: 90px;
+}
+
 span.theme {
     display: block;
     color: #898989;
@@ -212,7 +216,7 @@ span.theme {
     text-align: center;
     margin-right: auto;
     margin-left: auto;
-     font-family: "QuattrocentoSans", sans-serif;
+    font-family: "QuattrocentoSans", sans-serif;
     font-style: italic;
     border-bottom: 2px solid #aeaeae;
     line-height: 21px;
@@ -224,6 +228,7 @@ h2 {
     text-align: center;
     font-size: 24.06px;
     font-weight: 700;
+    color: #101010;
     line-height: 35.081px;
 }
 
