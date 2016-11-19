@@ -201,7 +201,7 @@ form {
 
 .right-column {
     float: right;
-    width: 320px;
+    width: 322px;
 }
 
 .item-content {
@@ -251,6 +251,7 @@ span.month {
     color: #101010;
     font-size: 13px;
     font-weight: 400;
+    font-family: "QuattrocentoSans";
 }
 
 span.year {
@@ -362,7 +363,7 @@ span.year {
     position: absolute;
     width: 93px;
     height: 38px;
-    border:1px solid #111111;
+    border: 1px solid #111111;
     margin-left: 0px;
     margin-top: 15px;
     background-color: #111111;
@@ -370,4 +371,55 @@ span.year {
     text-transform: uppercase;
     font-size: 12.03px;
     cursor: pointer
+}
+
+.latest-posts h2 {
+    text-align: left;
+    font-size: 23.73px;
+    line-height: 48px;
+    border-bottom: 1px solid #d7d7d7;
+    margin-top: 50px;
+}
+
+.item-post span:not(:last-child) {
+    font-style: italic;
+    color: #898989;
+    font-size: 12.02px;
+    border-bottom: 1px solid #aeaeae;
+    line-height: 4px;
+}
+
+.latest-posts p {
+    font-family: "Rufina";
+    text-align: left;
+    color: #101010;
+    font-weight: 700;
+    font-size: 16.02px;
+    margin-top: 10px;
+}
+
+.latest-posts .date {
+    display: inline-block;
+    margin-top: -18px;
+}
+
+.instagram {
+    font-size: 0;
+}
+
+.instagram .photos{
+    margin-top: 32px;
+}
+.instagram h2 {
+    text-align: left;
+    font-size: 23.73px;
+    line-height: 48px;
+    border-bottom: 1px solid #d7d7d7;
+    margin-top: 50px;
+}
+
+.instagram img {
+    padding: 0;
+    margin: 0;
+    display: inline-block;
 }
