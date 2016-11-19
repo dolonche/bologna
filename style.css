@@ -407,9 +407,10 @@ span.year {
     font-size: 0;
 }
 
-.instagram .photos{
+.instagram .photos {
     margin-top: 32px;
 }
+
 .instagram h2 {
     text-align: left;
     font-size: 23.73px;
@@ -422,4 +423,87 @@ span.year {
     padding: 0;
     margin: 0;
     display: inline-block;
+}
+
+.categories h2 {
+    text-align: left;
+    font-size: 23.73px;
+    line-height: 48px;
+    border-bottom: 1px solid #d7d7d7;
+    margin-top: 50px;
+}
+
+.categories ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.categories li {
+    padding: 10px;
+}
+
+.categories li:nth-child(even) {
+    background-color: #f7f7f7;
+}
+
+.categories li a {
+    font-size: 12px;
+    font-family: "QuattrocentoSans", sans-serif;
+    font-weight: 400;
+    color: #101010;
+}
+
+.blog-advertising {
+    margin-top: 40px;
+}
+
+.tags h2 {
+    text-align: left;
+    font-size: 23.73px;
+    line-height: 48px;
+    border-bottom: 1px solid #d7d7d7;
+    margin-top: 40px;
+}
+
+.tags ul {
+    list-style: none;
+    margin-left: -12px;
+    margin-top: 40px;
+}
+
+.tags li {
+    display: inline-block;
+    font-size: 16px;
+    color: #242424;
+    font-weight: 400;
+    position: relative;
+}
+
+.tags a {
+    font-size: 16px;
+    color: #242424;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 12px;
+}
+
+.tags li::after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 30px;
+    background-color: #d7d7d7;
+    transform: rotate(20deg);
+    left: 5px
+}
+
+.tags li:first-child::after,
+.tags li:nth-child(6)::after {
+    display: none
+}
+
+.tags li:nth-child(12)::after {
+    left: 318px;
+    top: -30px
 }
